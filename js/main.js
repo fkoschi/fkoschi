@@ -34,6 +34,7 @@ $(document).ready(function(){
 	});
 
 	setTimeout(function(){
+		showPopup();
 				
 	}, 1000);
 
@@ -42,12 +43,23 @@ $(document).ready(function(){
 		showPopup(450);
 	});
 
+	// close popup on icon click
+	$('#close_popup').on('click', function(){
+		var bPopup = $(this).parent().bPopup();
+		bPopup.close();
+	});
+
 	function showPopup(speed){
 		$('#popup').bPopup({
-			easing: 'easeOutBack', 
-        	speed: 450,
-        	transition: 'slideDown'
+			modalColor: 'white'
+			// 	easing: 'easeOutBack', 
+   			//	speed: 450,
+  			// 	transition: 'slideDown'
 		});
 	}
 
+	// jump to contact section 
+	$('span.get_me_to_contact').on('click',function(){
+		$.fn.fullpage.moveTo(4);
+	});
 });

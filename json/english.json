@@ -70,5 +70,11 @@
 			"description"	:	"It´s an honour to study at the LMU. Facilities and the city itself are just massive and impressive. My intention is it to set my focus of this master to web technologies. Another interessting field where I will attend to this semester is virtaul reality. Last semester I already got in touch with (new) technologies like augmented reality or tangible user interfaces. All that stuff is really interesseting and gets on focus of my work more and more."
 
 		}
+	],
+	"email-response"	: 	[
+		{
+			"header"	:	"Thank you!",
+			"body"		:	""
+		}
 	]
 }

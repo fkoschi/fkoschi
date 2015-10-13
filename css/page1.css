@@ -129,3 +129,7 @@ span.rotate {
 	font-size: 1.5em;
 	color: #6BD5DA;
 }
+span.get_me_to_contact:hover
+{
+	cursor: pointer;
+}

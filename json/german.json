@@ -20,7 +20,7 @@
 		{
 			"h1"		: 		"Über mich",
 			"h3"		:		"Hey Leute, ich bin Felix. Komme aus dem schönen München und bin gerade auf der Suche nach einem Praktikum in Australien.",
-			"p"			:		"Die Seite will ich als eine Art Showroom nutzen. Ihr könnt euch anhand meiner Ausbildung und bisherigen Stationen im Leben, einen Eindruck von mir bilden.<br><br> Über den <a href''><span data-hover=''>Kontakt</span></a> Bereich könnt ihr mir direkt eine Nachricht schicken.",
+			"p"			:		"Die Seite will ich als eine Art Showroom nutzen. Ihr könnt euch anhand meiner Ausbildung und bisherigen Stationen im Leben, einen Eindruck von mir bilden.<br><br> Über den <a href''><span class='get_me_to_contact' data-hover='Kontakt'>Kontakt</span></a> Bereich könnt ihr mir direkt eine Nachricht schicken.",
 			"p-rotate"	:		"Aktuell programmier ich viel mit <span class='rotate'>html,php,javascript, swift, c++</span>"
 		}
 	],
@@ -68,7 +68,12 @@
 			"location"		:	"München (Deutschland)",
 			"degree"		:	"M.Sc. Medieninformatik mit Anwendungsfach Mediengestaltung",
 			"description"	:	"Es erfüllt mich mit Stolz an einer der renomiertesten Universitäten des Landes studieren zu können. Wenn ich durch das Hauptgebäude der LMU spaziere bin ich immer wieder aufs Neue überwältigt von der Architektur und der Geschichte dieser Hallen und Vorlesungssäle. Dazu kommt die Tatsache das man neben dem Studium in München das Leben in vollen Zuügen genießen kann. So denn es der Zeitplan zulässt. Man kann sagen, dass Leben ist in München sehr lebenswert."
-
+		}
+	],
+	"email-response"	: 	[
+		{
+			"header"	:	"Danke schön!",
+			"body"		:	""
 		}
 	]
 }

@@ -91,6 +91,7 @@
 
 <body>
 	<div id="popup">
+		<i id="close_popup" class="fa fa-times-circle-o fa-2x"></i>
 		<h1 class="text-center"><?php echo $Language['popup']; ?></h1>
 		<h2 class="text-center"><?php echo $Language['popup-content']; ?></h2>
 		<img src="./img/icons/keyboard_arrows.png" name="keyboard_arrows">
@@ -426,12 +427,12 @@
     	    			<div id="contactFormRight" class="col-md-4 col-sm-4 col-md-offset-1 col-sm-offset-1">    	    			
 	    	    			<div class="row">
 	    	    				<textarea class="form-control" rows="5" name="contactMessage" placeholder="Leave your message here..."></textarea>
-	    	    				<a class="btn btn-primary" href="#">
+	    	    				<a id="send_feeback" class="btn btn-primary" href="#">
   									Abschicken	
   								</a>
 	    	    			</div>	    	    			
     	    			</div>
-    	    			<!--
+						<!--     	    			
     	    			<div id="contactInfo" class="col-md-3">
     	    				<p>Oder so:</p>
     	    				<p><i class="fa fa-phone-square"></i> +49 152 02834262</p>    				
@@ -440,19 +441,22 @@
     	    				<img src="./img/icons/flickr.png" alt="flickr">
     	    				<img src="./img/icons/pinterest.png" alt="pinterest">
     	    			</div>
-    	    			-->
+    	    			 -->
     	    		</div>
     	    		<div id="copyright" class="row">
     	    			<div class="col-md-12">
     	    				<!-- Copyright -->
-							<p class="text-center copy">&copy; Felix Koschmidder 2015</p>
+							<!-- <p class="text-center copy">&copy; Felix Koschmidder 2015</p> -->
     	    			</div>
     	    		</div>
     	   		</div>      	   		  	   		
     	   	</div>
 		</div>
 	</div>
-
+	<div id="popup-email">
+		<i class="fa fa-times-circle-o fa-2x"></i>
+		<h1 class="text-center"><?php echo $Language['email-response']['header']; ?></h1>
+	</div>
     <script type="text/javascript" src="./js/googleMaps.js"></script>
 </body>
 

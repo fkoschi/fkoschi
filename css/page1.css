@@ -1,0 +1,131 @@
+
+#about a:hover {
+	text-decoration: underline !important;
+	color: #000 !important;
+}
+.navbar hr {
+  height: 1px;
+  margin: 10px 0;
+  /*
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0,0,0,0)), color-stop(0.5, #333333), to(rgba(0,0,0,0)));
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0), #333333, rgba(0,0,0,0));
+  background: -moz-linear-gradient(left, rgba(0,0,0,0), #333333, rgba(0,0,0,0));
+  background: -o-linear-gradient(left, rgba(0,0,0,0), #333333, rgba(0,0,0,0));
+  background: linear-gradient(left, rgba(0,0,0,0), #333333, rgba(0,0,0,0));
+  border: 0;*/
+}
+/*
+.navbar hr:after { 
+  display: block; 
+  content:'';
+  height: 10px;
+  background-image: -webkit-gradient(radial, 50% 0%, 0, 50% 0%, 116, color-stop(0%, #cccccc), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -webkit-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -moz-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-radial-gradient(center top, farthest-side, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: radial-gradient(farthest-side at center top, #cccccc 0%, rgba(255, 255, 255, 0) 100%);
+}*/
+#page1 {
+	color: #000000;
+	font-size: 24px;
+	text-align: center;
+}
+#page1 h1 {
+	font-size: 2.8em;
+	font-weight: 600;
+}
+#page1 h3 {
+	font-size: 1em;
+	font-weight: 400;
+	color: #888;
+	line-height: 1.4em;
+}
+#page1 p {
+	font-size: 0.7em;
+	font-weight: 400;
+	line-height: 1.4em;
+}
+#page1 nav {
+	position: absolute;
+	top: 0;
+	padding-top: 20px;
+	font-size: 0.8em;	
+	font-weight: 300;
+	height: 66px;
+	background-color: rgba(107,213,218, 0.8);
+}
+#page1 nav a {
+	text-decoration: none;
+	margin: auto 25px;
+}
+#page1 nav .info {
+	position: absolute;
+	top: 0;
+	left: 20px;
+	padding-top: 20px;
+}
+#page1 nav i.fa-info-circle:hover {
+	cursor: pointer;
+	opacity: 0.6;
+}
+#page1 nav .flags {
+	position: absolute;
+	top: 0;
+	padding-top:20px;
+	right: 20px;
+}
+#page1 nav .flags img:hover {
+	cursor: pointer;
+	opacity: 0.6;
+}
+#page1 #about img {
+	width: 32px;
+	height: 32px;
+	margin: 0 10px;
+}
+#page1 #about #contactIcons a:hover {
+	opacity: 0.5;
+}
+
+.cl-effect a {
+	overflow: hidden;
+	padding: 0 5px;
+	height: 1.4em;
+	display: inline-block;
+	color: #ffffff !important;
+}
+
+.cl-effect a span {
+	position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.cl-effect a span::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 400;
+	color: #000;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.cl-effect a:hover span,
+.cl-effect a:focus span {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+#page1 img[name="portrait"] {
+	width: 100%;
+	height: 100%;
+	margin-top: 25px;
+}
+span.rotate {
+	font-weight: 600;
+	font-size: 1.5em;
+	color: #6BD5DA;
+}

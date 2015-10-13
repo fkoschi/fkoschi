@@ -1,0 +1,33 @@
+body {
+	font-family: 'Exo', sans-serif;
+	font-weight: 200;
+	font-size: 18px;
+	/* background: url('../img/pattern/rockywall.png') repeat; */
+
+}
+a {
+	text-decoration: none;
+	color: #6BD5DA !important;
+}
+#popup {
+	width: 512px;
+	height: 256px;
+	background-color: white;
+	border-radius: 3px;
+	display: none;
+	margin: 10px;
+	font-weight: 100;
+}
+#popup h2 {
+	margin-bottom: 40px;
+	font-weight: 200;
+}
+#popup img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+i.fa-arrow-circle-up :hover {
+	background-color: #888888 !important;
+	cursor: pointer !important;
+}

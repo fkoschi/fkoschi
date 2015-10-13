@@ -1,0 +1,74 @@
+{ 
+	"language" 	:	"german",
+	"version"	:	"0.1",
+	"popup"				:	"Hey Leute!",
+	"popup-content"		:	"Mit den Pfeiltasten könnt Ihr durch die Seiten navigieren",
+	"general"	: [
+		{
+			"emphases"	:	"Schwerpunkte"
+		}
+	],
+	"nav"		: 	[
+		{
+			"firstPage"		:		"me",
+			"secondPage"	:		"ausbildung",
+			"thirdPage"		:		"work",
+			"fourthPage"	: 		"kontakt"
+		}
+	],
+	"about"		: 	[
+		{
+			"h1"		: 		"Über mich",
+			"h3"		:		"Hey Leute, ich bin Felix. Komme aus dem schönen München und bin gerade auf der Suche nach einem Praktikum in Australien.",
+			"p"			:		"Die Seite will ich als eine Art Showroom nutzen. Ihr könnt euch anhand meiner Ausbildung und bisherigen Stationen im Leben, einen Eindruck von mir bilden.<br><br> Über den <a href''><span data-hover=''>Kontakt</span></a> Bereich könnt ihr mir direkt eine Nachricht schicken.",
+			"p-rotate"	:		"Aktuell programmier ich viel mit <span class='rotate'>html,php,javascript, swift, c++</span>"
+		}
+	],
+	"work"		:	[
+		{
+			"title"			:	"SD-Consultants",
+			"job title"		:	"system enginieer",
+			"duration"		:	"12 Monate ... ",
+			"description"	:	"Meine Jobbezeichnung bei SD-Consultants, einer Consulting Firma aus Bad Tölz mit den Kernkompetenzen in IT/QM/EHS, lautet system engineer. Diese Arbeit ist sehr vielfältig, beschäftigt sich im wesentlichen mit der Applikationsentwicklung für Intrexx. Intrexx ist eine modulare Portallösung für mittelständische Unternehmen. Nach Belieben stehen den Kunden dieser Lösung diverse Erweiterungs- und Anpassungsmöglichkeiten zur Verfügung. In meiner Arbeit entwickele ich neue Applikation und betreue Kunden. Die Arbeit kann ich mir flexibel einteilen, den ich arbeite über home office."
+		},
+		{
+			"title"			:	"Lindorff",
+			"job title"		:	"Studentische Aushilfskraft",
+			"duration"		:	"12 Monate",
+			"description"	:	"Die ursprüngliche Absicht und der Auftrag meiner Anstellung war es Abläufe in der IT-Abteilung zu automatisieren. Durch die Implementation diverser Skripte konnte ich auch an einer Automatisierung beitragen. Abgeschlossen habe ich diese Beschäftigung und meine Arbeit durch die Implementation eines kompletten Webtools zur Steuerung dieser automatischen Jobs. Diese stellt nun die einzige Anlaufstelle in der Arbeit mit automatischen Jobs dar, und war gleichzeitig meine Bachelor Thesis. "
+		},
+		{
+			"title"			: 	"Aikme",
+			"job title"		:	"Praktikum",
+			"duration"		:	"3 Monate",
+			"description"	: 	"Auch wenn das Praktikum bei Aikme gerade einmal 3 Monate dauerte, konnte ich sehr viel dazu lernen. Insbesondere im Bereich der Frontend Entwicklung. Projekte die ich während meiner Zeit bearbeitet habe waren zum Einen die Einrichtung und Steuerung von diversen Email-Kampagnen, sowie ein Template für die Online Plattform ebay zu gestalten. Das dritte große Projekt an dem ich mitarbeiten durfte war ein Unternehmen eigenes Backend System. Hier konnte ich ein zusätzliches Modul implementieren und an den Start bringen. "
+		}
+	],
+	"education"		:	[
+		{
+			"school"		: 	"Martin Luther Schule",
+			"location"		:	"Rimbach im Odw (Deutschland)",
+			"degree"		:	"Fachhochschulreife",
+			"description"	:	"Gerne blicke ich auf meine Zeit an der MLS zurück. Ich würde diese Zeit, gerade um das Abitur rum sogar als eine der besten Lebensabschnitte in meinem Leben bezeichnen. Es gibt viele Freunde mit denen ich bis heute noch Kontakt habe. Meine Leistungsfächer waren Geschichte und Biologie. Außerdem hatte ich Sport als Prüfungsfach für das Abitur."
+		},
+		{
+			"school"		:	"Umwelt-Campus Birkenfeld",
+			"location"		:	"Birkenfeld (Deutschland)",
+			"degree"		:	"B.Sc. Medieninformatik",
+			"description"	:	"Im kleinen beschaulichen Birkenfeld bin ich gelandet als die Wahl auf ein Studium gefallen ist. Das ich studieren will, war von Anfang an klar. Letzendes ist die Wahl auf Birkenfeld aufgrund des Curriculums gefallen. Ich hatte eine tolle und prägsame Zeit in Birkenfeld und denke immer wieder gerne an die Erlebnisse die ich in dieser Zeit gemacht habe, zurück."
+		},
+		{
+			"school"		:	"Dundalk IT",
+			"location"		: 	"Dundalk (Irland)",
+			"degree"		:	"Auslandssemester",
+			"description"	:	"Schon vor dem Studium war der Wunsch bei mir da über einen längeren Zeitraum im Ausland zu verbringen. Diesen Traum habe ich mir durch ein Asuslandssemester an der Dundalk IT in Irland erfüllt. Ich hatte eine unvergessliche Zeit. Gerade die Aktivitäten und Freundschaften die ich mit den anderen Ersamus Studenten erleben und knüpfen konnte werden mir immer in Erinnerung bleiben. "
+		},
+		{
+			"school"		:	"Ludwig Maximilian Universität",
+			"location"		:	"München (Deutschland)",
+			"degree"		:	"M.Sc. Medieninformatik mit Anwendungsfach Mediengestaltung",
+			"description"	:	"Es erfüllt mich mit Stolz an einer der renomiertesten Universitäten des Landes studieren zu können. Wenn ich durch das Hauptgebäude der LMU spaziere bin ich immer wieder aufs Neue überwältigt von der Architektur und der Geschichte dieser Hallen und Vorlesungssäle. Dazu kommt die Tatsache das man neben dem Studium in München das Leben in vollen Zuügen genießen kann. So denn es der Zeitplan zulässt. Man kann sagen, dass Leben ist in München sehr lebenswert."
+
+		}
+	]
+}

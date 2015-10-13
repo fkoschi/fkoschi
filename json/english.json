@@ -1,0 +1,74 @@
+{ 
+	"language" 	:	"english",
+	"version"	:	"0.1",
+	"popup"				: 	"Hey guys!",
+	"popup-content"		: 	"Navigate through pages via your keyboard arrows",
+	"general"	: [
+		{
+			"emphases"	:	"emphases"
+		}
+	],
+	"nav"		: 	[
+		{
+			"firstPage"		:		"about",
+			"secondPage"	:		"education",
+			"thirdPage"		:		"work",
+			"fourthPage"	:		"contact"
+		}
+	],
+	"about"		: 	[
+		{
+			"h1"		: 		"about me",
+			"h3"		:		"Even if I actually a student I would announce myself as a Front End developer. Currently I live in Munich, where I attend to do my M.Sc.",
+			"p"			:		"Some projects I am working on at the moment is an iPhone application, a web application, a microsoft phone application and a virtual reality application. Feel free to drop me a message at the <a href''><span data-hover=''>contact</span></a> section.",
+			"p-rotate"	:		"Currently my focus is on <span class='rotate'>html,php,javascript, swift, c++</span>"
+		}
+	],
+	"work"		:	[
+		{
+			"title"			:	"SD-Consultants",
+			"job title"		:	"system enginieer",
+			"duration"		:	"12 months ... ",
+			"description"	:	"SD-Consulting is a company based in Bad Tölz, which is focued on the areas IT/QM/EHS. We sell a software solution to our customers. This software is kind of a CMS system, in which the customer has the oppurtunity to adapt the environment on demand. My job is it to develop new applications for this software and enhance the existing ones. I work on home office, which makes it flexible when it comes to combine this job with my study. The software is called Intrexx and is produced by United Planet."
+		},
+		{
+			"title"			:	"Lindorff",
+			"job title"		:	"student assistant",
+			"duration"		:	"12 months",
+			"description"	:	"Actually my job at Lindorff was to automate jobs. Therefore I had to analyze and reflect on the given structures and procedures. The final automation was then done by scripts and macros. Constructive on that I could bring off my employment at Lindorff with my Bachelor thesis. This thesis exactly treated this topic of automation. The final project was a backend tool to control and regulate those automated jobs via a web plattform."
+		},
+		{
+			"title"			: 	"Aikme",
+			"job title"		:	"internship",
+			"duration"		:	"3 months",
+			"description"	: 	"To put it in a nutshell, this was the door opener for my passion in webdevelopment. Allthough this intern just lasted for 3 months I could learn quite a lot about programming, particularly web development. Aikme was a young startup company in e-commerce, selling products for fashion and lifestyle. "
+		}
+	],
+	"education"		:	[
+		{
+			"school"		: 	"Martin Luther Schule",
+			"location"		:	"Rimbach im Odw (Germany)",
+			"degree"		:	"advanced technical college entrance qualification",
+			"description"	:	"Truly one of my best times in life so far. You laugh about your parents when they try to tell you that you got to enjoy the time at school. But that is exactly the point you got to do. You learn a your first steps of beeing stand-alone before you got set free to the big world out there. "
+		},
+		{
+			"school"		:	"Umwelt-Campus Birkenfeld",
+			"location"		:	"Birkenfeld (Germany)",
+			"degree"		:	"B.Sc. media and computing",
+			"description"	:	"I am a person who does like to describe things with just as less words as possible. Give me a try with that to describe UCB. It is special, because there are no other places where you have that personal connection to your lectures and fellow students. It is perfect for studying, because it is in the middle of nowhere so that you can totally focus on your study. And it is normal, because you are accepted the way you are. Had a great time at UCB."
+		},
+		{
+			"school"		:	"Dundalk IT",
+			"location"		: 	"Dundalk (Ireland)",
+			"degree"		:	"semester abroad",
+			"description"	:	"Till the end of high school I had a dream to go abroad for a couple of months. This dream came true when I started my semester abroad in Ireland. The time with all of the other Erasmsus students was unforgettable. I do not make bones that I was partying a lot. To be serious, that´s what all do when you go abroad. The best part though was to learn about other cultures and their personal and professional behaviour."
+		},
+		{
+			"school"		:	"Ludwig Maximilian Universität",
+			"location"		:	"München (Germany)",
+			"degree"		:	"M.Sc. media and computing with minor subject media design",
+			"description"	:	"It´s an honour to study at the LMU. Facilities and the city itself are just massive and impressive. My intention is it to set my focus of this master to web technologies. Another interessting field where I will attend to this semester is virtaul reality. Last semester I already got in touch with (new) technologies like augmented reality or tangible user interfaces. All that stuff is really interesseting and gets on focus of my work more and more."
+
+		}
+	]
+}

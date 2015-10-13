@@ -1,0 +1,22 @@
+{ 
+	"german" : [
+		{
+			"nav" : [
+				{
+					"firstPage" : "Über mich",
+					"secondPage" : "Ausbildung",
+					"thirdPage" : "Kontakt"
+				}
+			], 
+			"page1" : [
+			],
+			"page2" : [
+			],
+			"page3" : [
+			]
+		}
+	],
+	
+	"english" : [
+	]
+}

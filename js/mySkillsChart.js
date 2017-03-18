@@ -2,57 +2,55 @@ $(document).ready(function(){
 
 	var context = $('#mySkillsChart').get(0).getContext('2d');
 
-
-
 	var data = [
-    {
-        value: 90,
-        color:"#F7464A",
-        highlight: "#FF5A5E",
-        label: "Webentwicklung"
-    },
-    {
-        value: 50,
-        color: "#89DDE1",
-        highlight: "#5AD3D1",
-        label: "Datenbanken"
-    },
-    {
-        value: 70,
-        color: "#EBBF18",
-        highlight: "#D4AD16",
-        label: "Intrexx"
-    },
-    {
-        value: 30,
-        color: "#949FB1",
-        highlight: "#A8B3C5",
-        label: "e-commerce"
-    },
-    {
-        value: 50,
-        color: "#4D5360",
-        highlight: "#616774",
-        label: "App Entwicklung"
-    },
-    {
-    	value: 70, 
-    	color: "#701E54",
-    	highlight: "#330523",
-    	label: "design"
-    },
-    {
-    	value: 40,
-    	color: "#2ECC3A",
-    	highlight: "#29B534",
-    	label: "Filmproduktion"
-    },
-    {
-    	value: 75,
-    	color: "#1F0569",
-    	highlight: "#1A084F",
-    	label: "3D-Modellierung"
-    }
+        {
+            value: 90,
+            color:"#F7464A",
+            highlight: "#FF5A5E",
+            label: "Webentwicklung"
+        },
+        {
+            value: 50,
+            color: "#89DDE1",
+            highlight: "#5AD3D1",
+            label: "Datenbanken"
+        },
+        {   
+            value: 70,
+            color: "#EBBF18",
+            highlight: "#D4AD16",
+            label: "Intrexx"
+        },
+        {
+            value: 30,
+            color: "#949FB1",
+            highlight: "#A8B3C5",
+            label: "e-commerce"
+        },
+        {
+            value: 50,
+            color: "#4D5360",
+            highlight: "#616774",
+            label: "App Entwicklung"
+        },
+        {
+    	   value: 70, 
+    	   color: "#701E54",
+    	   highlight: "#330523",
+    	   label: "design"
+        },
+        {
+    	   value: 40,
+    	   color: "#2ECC3A",
+    	   highlight: "#29B534",
+    	   label: "Filmproduktion"
+        },
+        {
+    	   value: 75,
+    	   color: "#1F0569",
+    	   highlight: "#1A084F",
+    	   label: "3D-Modellierung"
+        }
 
 	];
 

@@ -67,7 +67,7 @@
 	color: #ffffff;
 	font-weight: 200;
 	font-size: 2.2em;
-	text-shadow: 0px 2px 3px #888888;	
+	/*text-shadow: 0px 2px 3px #888888;*/	
 }
 #page3 p.job_title {
 	color: #888888;
@@ -87,4 +87,38 @@
 }
 #page3 #anchor i:hover {
 	opacity: 0.7;
+}
+#page3 #filters {
+	list-style-type: none;
+	vertical-align: middle;
+}
+#page3 #wookmark {
+	list-style-type: none;
+}
+#page3 #filters li {
+	font-size: 12px;
+	float: left;
+	padding: 6px 8px 4px;
+	cursor: pointer;
+	margin: 0px 10px;
+	transition: all 0.15s ease-out 0s;
+	border-radius: 3px;
+}
+#page3 #filters li:hover {
+	background: rgba(107, 213, 218, 0.8) none repeat scroll 0% 0%;
+	color: #FFF;
+}
+#page3 #wookmark li {
+	display: block;
+	opacity: 1;
+	text-align: center;
+	list-style-type: none;
+	background-color: #FFF;	
+	float: left;
+	cursor: pointer;
+	width: 350px;
+	padding: 4px;
+	border: 1px solid #DEDEDE;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
 }

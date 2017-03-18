@@ -5,7 +5,7 @@
 
 		function init() {
     		var mapOptions = {
-       			center: new google.maps.LatLng(48.1,11.6789682),
+       			center: new google.maps.LatLng(48.1537405,11.563737899999978),
         		zoom: 12,
             	zoomControl: false,
         		disableDoubleClickZoom: true,
@@ -21,7 +21,7 @@
     	var mapElement = document.getElementById('map');
     	var map = new google.maps.Map(mapElement, mapOptions);
     	var locations = [
-    	    ['München', 48.0674142, 11.6789682]
+    	    ['München', 48.1537405, 11.563737899999978]
     	];
 
     	for (i = 0; i < locations.length; i++) {

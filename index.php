@@ -35,7 +35,7 @@
 	<meta name="description" content="bewerbung lebenslauf application search for new projects felix koschmidder fkoschi university degree" />
 	<meta name="keywords"  content="bewerbung,lebenslauf,persönliches,coding, bachelor, master, informatik, medieninformatik" />
 	<meta name="Resource-type" content="Document" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     
     <!-- Favicon -->
     	<link rel="icon" type="image/x-icon" href="favicon/favicon.ico">
@@ -43,6 +43,8 @@
     <!-- CSS -->
     	<!-- Google -->
    	    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+		<!-- Normalize -->
+		<link rel="stylesheet" href="css/normalize.css">
     	<!-- fullPage -->
     	<link rel="stylesheet" type="text/css" href="css/fullpage/jquery.fullPage.css">
     	<!-- Own Stuff -->
@@ -52,6 +54,9 @@
     	<link rel="stylesheet" type="text/css" href="css/page2.css"> <!-- Page 2 -->
     	<link rel="stylesheet" type="text/css" href="css/page3.css"> <!-- Page 3 -->
     	<link rel="stylesheet" type="text/css" href="css/page4.css"> <!-- Page 3 -->
+		<link rel="stylesheet" type="text/css" href="css/wookmark.css"> <!-- Wookmark -->
+		<!-- Magnified Popup -->
+		<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
     	<!-- Animate.css -->
     	<link rel="stylesheet" type="text/css" href="css/animate.css">
     	<!-- Bootstrap -->
@@ -64,23 +69,28 @@
     <!-- JavaScript -->
 
     	<!-- JQUERY -->
-    	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script> 
-    	<script type="text/javascript" src="https://code.jquery.com/jquery-ui.min.js"></script>
+    	<script type="text/javascript" src="js/jquery/jquery-1.11.2.min.js"></script> 
+    	<script type="text/javascript" src="js/jquery/jquery-ui.min.js"></script>
     	<!-- fullPage -->
     	<script type="text/javascript" src="js/fullpage/jquery.fullPage.js"></script> 
     	<!-- Google API -->
-    	<script src="https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js"></script> 
+    	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZLmkJp9GZ_N1reuqKalDfMqbzup8M0og&sensor=false&extension=.js"></script> 
     	<!-- Rotate Words -->
     	<script type="text/javascript" src="js/text-rotator/jquery.simple-text-rotator.js"></script>
     	<!-- Own Stuff -->
-    	<script type="text/javascript" src="js/main.js"></script>
     	<script type="text/javascript" src="js/mySkillsChart.js"></script>
+    	<script type="text/javascript" src="js/main.js"></script>
+
     	<!-- MODERNIZR -->
     	<script type="text/javascript" src="js/modernizr.custom.js"></script>
     	<!-- bpopup -->
     	<script type="text/javascript" src="js/bPopup/jquery.bpopup.min.js"></script>
     	<!-- Chart.js -->
     	<script type="text/javascript" src="js/chart.js/Chart.js"></script>
+    	<!-- Wookmark -->
+    	<script type="text/javascript" src="js/wookmark/wookmark.js"></script>
+		<!-- Magnific Popup -->
+		<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 
     <!--     -->
 
@@ -115,8 +125,7 @@
 						<div class="flags">
 							<img src="./img/icons/deu.png" alt="german-flag-icon" name="german">
 							<img src="./img/icons/gb.png" alt="english-flag-icon" name="english">
-						</div>
-						<hr>
+						</div>						
 					</nav>
 				</div>
 				<div class="row">
@@ -134,7 +143,7 @@
 						</div>
 					</div>
 					<div id="portrait" class="col-md-4 col-md-offset-1">
-						<img src="./img/me.png" class="img" name="portrait">
+						<img src="./img/felix.png" class="img" name="portrait">
 					</div>
 				</div>				
 			</div>
@@ -337,10 +346,165 @@
 			<!-- Slide 2 -->
 			<div id="slide2" class="slide">
 				<div class="container-fluid">
-					<div class="row">
-					
+				
+				<div id="filter_div">
+					<ul id="filters">
+						<li data-filter="web">Web</li>
+						<li data-filter="app">Smartphone App</li>
+						<li data-filter="intrexx">Intrexx</li>
+						<li data-filter="studium">Studium</li>
+						<li data-filter="sonstiges">Sonstiges</li>
+					</ul>						
 				</div>
-				<div class="row">
+
+				<div id="wookmark_box" class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<!--
+						<ul id="wookmark" class="">
+							<li data-filter-class='["company"]'>
+								<img src="img/work/Aikme_256_128.png" width="200">
+								<p>Aikme</p>
+							</li>
+							<li data-filter-class='["company"]'>
+								<img src="img/work/lindorff_256_128.png" width="200">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["company"]'>
+								<img src="img/work/SD_256_128.png" width="200">
+								<p>SD-Consultants</p>
+							</li>
+							<li data-filter-class='["company"]'>
+								<img src="img/work/Aikme_256_128.png" width="200">
+								<p>Aikme</p>
+							</li>
+							<li data-filter-class='["work"]'>
+								<img src="img/work/lindorff_256_128.png" width="200">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["work"]'>
+								<img src="img/work/SD_256_128.png" width="200">
+								<p>SD-Consultants</p>
+							</li>
+							<li data-filter-class='["work"]'>
+								<img src="img/work/Aikme_256_128.png" width="200">
+								<p>Aikme</p>
+							</li>
+							<li data-filter-class='["company"]'>
+								<img src="img/work/lindorff_256_128.png" width="200">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["job"]'>
+								<img src="img/work/SD_256_128.png" width="200">
+								<p>SD-Consultants</p>
+							</li>
+						</ul>
+						-->
+						<ul id="tiles" class="tiles-wrap animated">
+							<li data-filter-class='["sonstiges"]'>
+								<a href="img/portfolio/Abizeitung.png">
+								<img src="img/portfolio/Abizeitung.png" width="210" height="300" alt="">
+								</a>
+								<p>Abizeitung</p>
+							</li>
+							<li data-filter-class='["studium"]'>
+								<img src="img/portfolio/cinema4d.png" width="210" height="150" alt="">
+								<p>3D Modellierung</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/eBay.png" width="210" height="150" alt="">
+								<p>eBay Template</p>
+							</li>
+							<li data-filter-class='["studium"]'>
+								<img src="img/portfolio/huggy.JPG"  width="210" height="350" alt="">
+								<p>Studium</p>
+							</li>
+							<li data-filter-class='["app"]'>
+								<img src="img/portfolio/ios.png" width="210" height="350" alt="">
+								<p>iOS App</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/lindorff.png" width="210" height="150" alt="">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/lindorff1.png" width="210" height="150" alt="">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/lindorff2.png" width="210" height="150" alt="">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/lindorff3.png" width="210" height="150" alt="">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/lindorff4.png" width="210" height="150" alt="">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/lindorff5.png" width="210" height="150" alt="">
+								<p>Lindorff</p>
+							</li>
+							<li data-filter-class='["studium"]'>
+								<img src="img/portfolio/mediaq.png" width="210" height="150" alt="">
+								<p>MediaQ</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd.png" width="210" height="250" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd1.png" width="210" height="210" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd2.png" width="210" height="150" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd3.png" width="210" height="170" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd4.png" width="210" height="170" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd5.png" width="210" height="170" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd6.png" width="210" height="190" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd7.png" width="210" height="165" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd8.png" width="210" height="170" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["intrexx"]'>
+								<img src="img/portfolio/sd9.png" width="210" height="175" alt="">
+								<p>SD Consultants</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/flinster1.png" width="210" height="150" alt="">
+								<p>Flinster</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/flinster2.png" width="210" height="150" alt="">
+								<p>Flinster</p>
+							</li>
+							<li data-filter-class='["web"]'>
+								<img src="img/portfolio/flinster3.png" width="210" height="150" alt="">
+								<p>Flinster</p>
+							</li>
+						</ul>
+					</div>
+					<!--
 					<div class="col-md-4 col-lg-3 col-lg-offset-1">
 						<div class="thumbnail">
 							<img src="./img/work/SD_256_128.png" class="img-thumbnail">
@@ -395,8 +559,10 @@
 							</div>
 						</div>						
 					</div>
+					-->
 				</div>
-				</div>
+
+				</div> <!-- Container Fluid -->
 			</div>			
 				
 		</div>		
@@ -458,6 +624,7 @@
 		<h1 class="text-center"><?php echo $Language['email-response']['header']; ?></h1>
 	</div>
     <script type="text/javascript" src="./js/googleMaps.js"></script>
+	<script src="js/wookmark/imagesloaded.pkgd.min.js"></script>
 </body>
 
 </html>

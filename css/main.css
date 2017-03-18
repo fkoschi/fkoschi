@@ -58,3 +58,54 @@ i.fa-arrow-circle-up :hover {
 	background-color: #888888 !important;
 	cursor: pointer !important;
 }
+#tiles
+{
+	max-height: 650px;
+	/*overflow: hidden;*/
+}
+#tiles li 
+{
+	display: block;
+	opacity: 1;
+	text-align: center;
+	list-style-type: none;
+	background-color: #fff;
+	float: left;
+	cursor: pointer;
+	width: 220px;
+	padding: 4px;
+	border: 1px solid #dedede;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+#filters
+{
+	margin-bottom: 15px;
+	padding: 10px;
+	display: grid;
+	width: 130px;
+	text-align: left !important;
+}
+#filters li 
+{
+	margin-bottom: 10px;
+}
+#filter_div
+{
+	position: fixed;
+	top: 60px;
+	display: grid;
+	width: 130px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+#wookmark_box 
+{
+	/*position: absolute;
+	top: 60px;*/
+	
+}

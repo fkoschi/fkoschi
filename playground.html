@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wookmark Test</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<style type="text/css">
+		
+		#container {	
+			display: block;
+			opacity: 1;
+			text-align: center;
+			list-style-type: none;
+			background-color: #FFF;	
+			float: left;
+			cursor: pointer;
+			width: 350px;
+			padding: 4px;
+			border: 1px solid #DEDEDE;
+			box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+			border-radius: 2px;
+		}
+	</style>
+</head>
+
+<body>
+	<ul id="container" class="tiles-wrap animated">
+		<li data-filter-class='["company"]'>
+			<img src="img/work/Aikme_256_128.png" width="200">
+			<p>Aikme</p>
+		</li>
+	</ul>
+</body>
+
+	<script type="text/javascript" src="wookmark.js"></script>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(#container).wookmark();
+		});
+	</script>
+</html>
+
+	
+			
